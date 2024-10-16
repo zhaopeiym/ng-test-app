@@ -5,6 +5,7 @@ import { Page2RoutingModule } from './page2-routing.module';
 import { Page2Component } from './page2.component';
 import { NzSelectModule } from 'ng-zorro-antd/select';
 import { FormsModule } from '@angular/forms';
+import { NzModalModule } from 'ng-zorro-antd/modal';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { FormsModule } from '@angular/forms';
     CommonModule,
     Page2RoutingModule,
     NzSelectModule,
-    FormsModule
+    FormsModule,
+    NzModalModule
   ]
 })
 export class Page2Module { }
